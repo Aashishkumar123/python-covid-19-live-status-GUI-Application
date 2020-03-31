@@ -1,7 +1,7 @@
 # python-covid-19-live-Tracker-GUI-Application
 
 First make sure you have install python on your machine 
-Choose any text-editor for your compactiblity here, i have used python to create this GUI Application.
+Choose any text-editor for your compactiblity here, i have used pycharm to create this GUI Application.
 Now, come to the code , you have install some libaray into your machine :-
 pip install tkinter
 pip install matplotlib
