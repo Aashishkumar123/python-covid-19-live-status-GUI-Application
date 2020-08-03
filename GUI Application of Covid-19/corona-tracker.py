@@ -3,6 +3,8 @@ import covid                               # pip install covid
 import tkinter as tk
 import matplotlib.pyplot as plt            # pip install matplotlib
 import pandas as pd                        # pip install pandas
+from tabulate import tabulate
+
 
 #======================================================== End ===============================================================
 
@@ -36,7 +38,7 @@ def show_data():
     df = pd.DataFrame(data, index=[0])
 
     # Print the output.
-    print(df)
+    print(tabulate(df, headers="keys", tablefmt="psql"))
     cadr = {
 
         key:status[key]
