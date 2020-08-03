@@ -1,14 +1,12 @@
-# Importing libraries
-
-import covid
+# ===================================================== Importing libraries ===============================================
+import covid                               # pip install covid
 import tkinter as tk
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
+import matplotlib.pyplot as plt            # pip install matplotlib
+import pandas as pd                        # pip install pandas
 
+#======================================================== End ===============================================================
 
-
-# defining function that generate status
+# ===================================================== defining function that generate status =======================================
 def show_data():
     data = covid.Covid()
     country_name = e1.get()
@@ -56,8 +54,10 @@ def show_data():
 
     plt.show()
 
+#============================================================== End ======================================================
 
 
+# ================================================= Window Design =========================================================
 master = tk.Tk()
 master.title('Covid-19 country status ')
 
@@ -96,5 +96,5 @@ e5.grid(row=11, column=3)
 
 master.mainloop()
 
-
+#================================================================== End =====================================================
 
